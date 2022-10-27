@@ -1,0 +1,72 @@
+body{
+    background-image: url(../images/star_wars_xwing.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family:  "Share Tech Mono", Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+}
+h1{
+    margin-top: 10px;
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+.heroes{
+    display: flex;
+    flex-direction: row;
+    
+}
+h2{
+    font-size: 200%;
+    margin-bottom: 4px;
+}
+.char{
+    width: 190px;
+    height: 160px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: white;
+    border-color: green;
+    border-style: solid;
+    border-width: 3px;
+   
+}
+.char .charname{
+    text-align: center;
+}
+
+.char .charimg {
+    width: 150px;
+    height: 100px;
+    margin: 3px 15px;
+    
+    
+}
+.char .charhealth{
+    text-align: center;
+}
+.enemies{
+    display: flex;
+}
+
+.choosencharacter,
+.defender
+{
+    width: 190px;
+    height: 160px;
+   
+}
+
+
+/* js css */
+.red{
+    background-color: red;
+}
+.black{
+    background-color: black;
+}
+.displaynone{
+    display: none;
+}
